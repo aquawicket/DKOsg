@@ -1,7 +1,7 @@
 #pragma once
 #ifndef DKOSGViewer_H
 #define DKOSGViewer_H
-#include "DK.h"
+#include "DK/DK.h"
 #include <osgViewer/CompositeViewer>
 
 #if !defined(DKLIB)
