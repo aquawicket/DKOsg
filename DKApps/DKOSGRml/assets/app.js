@@ -1,5 +1,5 @@
 DKCreate("DKWindow");
 DKCreate("DKOSGWindow");
 DKCreate("DKOSGViewer");
-DKCreate("DKRocket");
+DKCreate("DKRml");
 DKCreate("test.js");

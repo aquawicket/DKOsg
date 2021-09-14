@@ -4,6 +4,6 @@ RETURN()
 
 DKDEPEND(DKAudio)
 DKDEPEND(DKOSGWindow)
-DKDEPEND(osgaudio-master)
+DKDEPEND(osgaudio)
 
 DKPLUGIN(DKOSGAudio)
