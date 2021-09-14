@@ -1,4 +1,4 @@
 DKDEPEND(DKOSGWindow)
-DKDEPEND(OpenSceneGraph-3.4.0 osgWidget)
+DKDEPEND(openscenegraph osgWidget)
 
 DKPLUGIN(DKOSGWidget)
