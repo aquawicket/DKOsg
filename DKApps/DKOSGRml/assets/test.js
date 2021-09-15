@@ -1,4 +1,4 @@
-DKCreate("DKWidget,test.html");
+CPP_DK_Create("DKWidget,test.html");
 
 ////////////////////
 function test_Init()

@@ -1,1 +1,1 @@
-DKCreate("DKOSGWindow");
+CPP_DK_Create("DKOSGWindow");
