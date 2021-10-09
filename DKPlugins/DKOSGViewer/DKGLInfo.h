@@ -6,12 +6,10 @@
 #include <osg/Texture>
 #include "DK/DK.h"
 
-///////////////////////////////////////////
 class DKGLInfo : public DKObjectT<DKGLInfo>
 {
 public:
 	void Init();
-
 	osg::ref_ptr<osg::GraphicsContext> _gc;
 	int  _maxFFPTextureUnits;
 	int  _maxGPUTextureUnits;
@@ -53,5 +51,4 @@ public:
 };
 
 REGISTER_OBJECT(DKGLInfo, true);
-
 #endif //DKGLInfo_H

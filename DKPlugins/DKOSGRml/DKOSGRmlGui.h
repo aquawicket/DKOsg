@@ -18,8 +18,6 @@ typedef Rocket::Core::ElementDocument DKElementDocument;
 //typedef Rocket::Core::ElementUtilities DKElementUtilities;
 //typedef Rocket::Core::String DKCString;
 
-
-////////////////////////////////////////////////////////////////
 class DKRocketEventListener : public Rocket::Core::EventListener
 {
 public:
@@ -33,11 +31,9 @@ public:
 };
 
 
-////////////////////////////////////////// 
 class DKRocketGuiNode : public osg::Group //A node for rendering a libRocket GUI in OpenSceneGraph.
 {
 typedef osg::Group BaseClass;
-
 public:
     /**
     * @param contextname Unique string identifying the gui node context
@@ -69,8 +65,6 @@ public:
     osg::ref_ptr<osgGA::GUIEventHandler> mGUIEventHandler;
 };
 
-
-/////////////////////////////////////////////////////
 class GUIEventHandler : public osgGA::GUIEventHandler
 {
 	DKRocketGuiNode* mGUINode;
@@ -78,6 +72,5 @@ public:
 	GUIEventHandler(DKRocketGuiNode* node);
 	virtual bool handle(const osgGA::GUIEventAdapter& ea, osgGA::GUIActionAdapter& aa, osg::Object*, osg::NodeVisitor* nv);
 };
-
 
 #endif //DKOSGRocketGui_H

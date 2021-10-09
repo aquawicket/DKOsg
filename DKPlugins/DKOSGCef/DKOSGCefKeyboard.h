@@ -4,7 +4,6 @@
 #include "DK.h"
 #include <osgGA/GUIEventAdapter>
 
-//////////////////////
 class DKOSGCefKeyboard
 {
 public:

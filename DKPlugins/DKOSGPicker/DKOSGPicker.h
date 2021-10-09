@@ -7,8 +7,6 @@
 #include <osgViewer/ViewerEventHandlers>
 #include <osgFX/Outline>
 
-
-////////////////////////////////////////////////////////////////////////////////
 class DKOSGPicker : public osgGA::GUIEventHandler, public DKObjectT<DKOSGPicker> 
 {
 public:
@@ -25,8 +23,6 @@ private:
     osg::ref_ptr<osgText::Text> _updateText;
 };
 
-
 REGISTER_OBJECT(DKOSGPicker, true);
-
 #endif //DKOSGPicker_H
 //#endif //USE_osgFX

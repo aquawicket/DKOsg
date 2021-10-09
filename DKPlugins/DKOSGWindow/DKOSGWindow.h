@@ -21,8 +21,6 @@
 #include <osg/PositionAttitudeTransform>
 #include <osgGA/EventQueue>
 
-
-////////////////////////////////////////////////////////////////////////////////
 class DKOSGWindow : public osgGA::GUIEventHandler, public DKObjectT<DKOSGWindow>
 {
 public:
@@ -76,18 +74,14 @@ public:
 	
 private:
 	//bool CreatePIP(const int& x, const int& y, const int& w, const int& h, DKOSGWindow* parent);
-	
 	int lastMouseX;
 	int lastMouseY;
 	virtual bool handle(const osgGA::GUIEventAdapter& ea,osgGA::GUIActionAdapter&);
 	bool CreateView();
 	bool SetIcon(const DKString& file);
 	int getNumScreens();
-
 	osg::ref_ptr<osg::GraphicsContext::WindowingSystemInterface> wsi;
 };
 
-
 REGISTER_OBJECT(DKOSGWindow, true)
-
 #endif //DKOSGWindow_H

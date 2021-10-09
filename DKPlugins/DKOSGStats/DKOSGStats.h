@@ -7,7 +7,6 @@
 #include <osgViewer/Viewer>
 #include <osgViewer/ViewerEventHandlers>
 
-/////////////////////////////////////////
 class DKOSGStats : public DKObjectT<DKOSGStats> 
 {
 public:
@@ -19,7 +18,5 @@ private:
 	osg::ref_ptr<osgViewer::StatsHandler> stats;
 };
 
-
 REGISTER_OBJECT(DKOSGStats, true);
-
 #endif //DKOSGStats_H

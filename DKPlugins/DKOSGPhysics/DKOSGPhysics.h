@@ -31,12 +31,8 @@
 #include <osgbInteraction/DragHandler.h>
 //#endif
 
-
 #include <btBulletDynamicsCommon.h>
 
-
-
-///////////////////////////////////////////////////
 class DKOSGPhysics : public DKObjectT<DKOSGPhysics>
 {
 
@@ -68,7 +64,5 @@ private:
 
 };
 
-
 REGISTER_OBJECT(DKOSGPhysics, true);
-
 #endif //DKOSGPhysics

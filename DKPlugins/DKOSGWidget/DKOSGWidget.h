@@ -7,7 +7,6 @@
 #include <osgWidget/WindowManager>
 #include <osgWidget/ViewerEventHandlers>
 
-//////////////////////////////////////////
 class DKOSGWidget : public osg::Referenced
 {
 public: 
@@ -19,6 +18,5 @@ public:
 	osg::ref_ptr<osg::Camera> wmcamera;
 	osg::ref_ptr<osgWidget::Window> wmcanvas;
 };
-
 
 #endif //DKOSGWidget_H

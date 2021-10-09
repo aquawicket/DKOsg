@@ -5,7 +5,6 @@
 
 #include "DKDuktape/DKDuktape.h"
 
-/////////////////////////////////////////////
 class DKOSGModelJS : public DKObjectT<DKOSGModelJS>
 {
 public:

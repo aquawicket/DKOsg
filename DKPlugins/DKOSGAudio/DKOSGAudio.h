@@ -9,7 +9,6 @@
 #include <osgAudio/Sample.h>
 #include <osg/DeleteHandler>
 
-///////////////////////////////////////////////
 class DKOSGAudio : public DKObjectT<DKOSGAudio>
 {
 public:

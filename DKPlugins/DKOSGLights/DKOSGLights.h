@@ -5,7 +5,6 @@
 
 #include <osg/Node>
 
-///////////////////////////////////////////
 class DKOSGLights : public DKObjectT<DKOSGLights>
 {
 public:

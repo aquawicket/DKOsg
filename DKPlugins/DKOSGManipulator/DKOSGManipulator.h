@@ -3,7 +3,6 @@
 #define DKOSGManipulator_H
 #include <osgGA/TrackballManipulator>
 
-///////////////////////////////////////////////////////////
 class DKOSGManipulator : public DKObjectT<DKOSGManipulator>
 {
 public:
@@ -12,7 +11,6 @@ public:
 	
 	osg::ref_ptr<osgGA::TrackballManipulator> tb;
 };
-
 
 REGISTER_OBJECT(DKOSGManipulator, true);
 

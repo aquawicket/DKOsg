@@ -6,8 +6,6 @@
 #include <osg/Notify>
 #include <osg/Timer>
 
- 
-//////////////////////////////////////////////////////////////
 class DKOSGRocketSystem : public Rocket::Core::SystemInterface
 {
 public:
@@ -33,6 +31,4 @@ public:
 private:
       osg::Timer_t _timer;
 };
-
-
 #endif //DKOSGRocketSystem_H

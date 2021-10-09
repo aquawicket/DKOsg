@@ -5,7 +5,6 @@
 
 #include "DKDuktape/DKDuktape.h"
 
-///////////////////////////////////////////
 class DKOSGVideoJS : public DKObjectT<DKOSGVideoJS>
 {
 public:
@@ -14,6 +13,5 @@ public:
 };
 
 REGISTER_OBJECT(DKOSGVideoJS, true)
-
 #endif //DKOSGVideoJS_H
 #endif //USE_DKDuktape

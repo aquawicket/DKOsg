@@ -5,7 +5,6 @@
 
 #include <osg/Node>
 
-/////////////////////////////////////////////
 class DKOSGTerrain : public DKObjectT<DKOSGTerrain>  
 {
 public:
@@ -17,7 +16,5 @@ private:
 	osg::ref_ptr<osg::Node> terrain;
 };
 
-
 REGISTER_OBJECT(DKOSGTerrain, true);
-
 #endif //DKOSGTerrain_H

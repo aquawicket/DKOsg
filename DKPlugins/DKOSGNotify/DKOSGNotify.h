@@ -9,8 +9,6 @@
 
 #include <osg/Notify>
 
-
-//////////////////////////////////////////////////////////////////////
 class DKOSGNotify : public DKObjectT<DKOSGNotify>, public osg::NotifyHandler
 {
 public:
@@ -28,5 +26,4 @@ private:
 
 
 REGISTER_OBJECT(DKOSGNotify, true);
-
 #endif //DKOSGNotify_H

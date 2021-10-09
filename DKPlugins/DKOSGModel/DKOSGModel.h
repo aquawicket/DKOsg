@@ -5,8 +5,6 @@
 #include <osg/Referenced>
 #include "DKOSGWindow.h"
 
-
-/////////////////////////////////////////
 class DKOSGModel : public DKObjectT<DKOSGModel>
 {
 public:
@@ -17,7 +15,6 @@ public:
 	osg::ref_ptr<osg::Node> modelNode;
 	osg::Group* theRoot;
 };
-
 
 REGISTER_OBJECT(DKOSGModel, false);
 #endif //DKOSGModel_H

@@ -8,7 +8,6 @@
 #include "DKOSGRocketSystem.h"
 #include "DKEvent.h"
 
-/////////////////////////////////////////////////
 class DKOSGRocket : public DKObjectT<DKOSGRocket>
 {
 public:
@@ -26,7 +25,6 @@ public:
 	static DKOSGRocketSystem* guisystem;
 	osg::ref_ptr<osg::Camera> guicam;
 };
-
 
 REGISTER_OBJECT(DKOSGRocket, true)
 #endif //DKOSGRocket_H

@@ -10,8 +10,6 @@
 #include <osg/TexMat>
 #include <osg/Geometry>
 
-
-//////////////////////////////////////////////////////////////
 class DKOSGRocketRender : public Rocket::Core::RenderInterface
 {
 public:
@@ -42,6 +40,4 @@ private:
     
 	std::map<Rocket::Core::TextureHandle, DKString> texture_name; //texture to name map
 };
-
-
 #endif //DKOSGRocketRender_H
