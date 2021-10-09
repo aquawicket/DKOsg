@@ -24,7 +24,6 @@
 class MovieEventHandler : public osgGA::GUIEventHandler
 {
 public:
-
     MovieEventHandler():_trackMouse(false) {}
     void setMouseTracking(bool track) { _trackMouse = track; }
     bool getMouseTracking() const { return _trackMouse; }
@@ -32,11 +31,8 @@ public:
     virtual bool handle(const osgGA::GUIEventAdapter& ea,osgGA::GUIActionAdapter& aa, osg::Object*, osg::NodeVisitor* nv);
     virtual void getUsage(osg::ApplicationUsage& usage) const;
     typedef std::vector< osg::observer_ptr<osg::ImageStream> > ImageStreamList;
-
 protected:
-
     virtual ~MovieEventHandler(){}
-
     class FindImageStreamsVisitor : public osg::NodeVisitor
 	{
     public:
@@ -73,7 +69,6 @@ protected:
         FindImageStreamsVisitor& operator = (const FindImageStreamsVisitor&) { return *this; }
 
     };
-
     bool            _trackMouse;
     ImageStreamList _imageStreamList;
     unsigned int    _seekIncr;
@@ -130,9 +125,7 @@ static osg::Geometry* myCreateTexturedQuadGeometry(const osg::Vec3& pos,float wi
 
 
 
-
-
-////////////  osgmovie.cpp main() ////////////////////////
+///  osgmovie.cpp main() ///
 /*
 int main(int argc, char** argv)
 {

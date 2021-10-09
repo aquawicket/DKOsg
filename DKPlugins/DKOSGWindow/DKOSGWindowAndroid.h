@@ -5,7 +5,6 @@
 
 #include <jni.h>
 
-///////////////////////////////////////////////////////////////
 class DKOSGWindowAndroid : public DKObjectT<DKOSGWindowAndroid>
 {
 public:
@@ -42,6 +41,5 @@ public:
 };
 	
 REGISTER_OBJECT(DKOSGWindowAndroid, true)
-
 #endif //DKOSGWindowAndroid_H
 #endif //ANDROID
