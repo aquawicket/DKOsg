@@ -1,5 +1,5 @@
-DKDEPEND(DKAudio)
-DKDEPEND(DKOSGWindow)
-DKDEPEND(osgaudio)
+dk_depend(DKAudio)
+dk_depend(DKOSGWindow)
+dk_depend(osgaudio)
 
-DKPLUGIN(DKOSGAudio)
+dk_generateCmake(DKOSGAudio)

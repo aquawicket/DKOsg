@@ -1,8 +1,8 @@
 DKENABLE(DKCef)
 
-DKDEPEND(DKOSGWindow)
-DKDEPEND(DKCef)
-DKDEPEND(DKCefChild)
-DKDEPEND(DKAssets)
+dk_depend(DKOSGWindow)
+dk_depend(DKCef)
+dk_depend(DKCefChild)
+dk_depend(DKAssets)
 
-DKPLUGIN(DKOSGCef)
+dk_generateCmake(DKOSGCef)

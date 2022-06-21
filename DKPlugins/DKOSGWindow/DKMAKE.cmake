@@ -1,5 +1,5 @@
-DKDEPEND(DKAssets)
-DKDEPEND(DKOSGViewer)
-DKDEPEND(DKWindow)
+dk_depend(DKAssets)
+dk_depend(DKOSGViewer)
+dk_depend(DKWindow)
 
-DKPLUGIN(DKOSGWindow)
+dk_generateCmake(DKOSGWindow)

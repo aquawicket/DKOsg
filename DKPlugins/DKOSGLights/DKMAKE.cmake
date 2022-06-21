@@ -1,3 +1,3 @@
-DKDEPEND(DKOSGWindow)
+dk_depend(DKOSGWindow)
 
-DKPLUGIN(DKOSGLights)
+dk_generateCmake(DKOSGLights)

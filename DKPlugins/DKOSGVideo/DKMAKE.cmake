@@ -2,8 +2,8 @@ IF(ANDROID)
 	RETURN()
 ENDIF()
 
-DKDEPEND(openscenegraph osgdb_ffmpeg)
-DKDEPEND(DKOSGWindow)
+dk_depend(openscenegraph osgdb_ffmpeg)
+dk_depend(DKOSGWindow)
 
-DKPLUGIN(DKOSGVideo)
-DKASSETS(DKOSGVideo)
+dk_generateCmake(DKOSGVideo)
+dk_assets(DKOSGVideo)

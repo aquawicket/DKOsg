@@ -1,3 +1,3 @@
-DKDEPEND(DKOSGWindow)
+dk_depend(DKOSGWindow)
 
-DKPLUGIN(DKOSGPicker)
+dk_generateCmake(DKOSGPicker)
